@@ -1,5 +1,3 @@
-*.js
-*.js.map
 *.log
 .DS_Store
 demo/app/*.js
