@@ -38,6 +38,10 @@ export class IntercomBridge {
     io.intercom.android.sdk.Intercom.client().setSecureMode(secureHash, secureData);
   }
 
+  static setUserHash(secureHash: string) {
+    io.intercom.android.sdk.Intercom.client().setUserHash(secureHash)
+  }
+
   static updateUser(attributes: any) {
     io.intercom.android.sdk.Intercom.client().updateUser(attributes);
   }
